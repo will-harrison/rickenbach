@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Serif:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Open+Sans');
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-default {
@@ -42,17 +42,39 @@ body {
 }
 
 .header {
-  background: url('../images/sample.jpg');
+  background: url('../images/AstoriaFord.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left center;
-  min-height: 645px;
+  background-position: center center;
+  min-height: 1000px;
+}
+
+.header__contact {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 26px;
+  float: right;
+  margin: 6px 0 10px;
+  padding: 10px 20px 10px;
+}
+
+.header__text {
+  color: #fff;
+  font-size: 36px;
+  margin: 75px 200px;
+}
+
+.header__text--large {
+  font-family: 'Montserrat', serif;
+  font-size: 50px;
 }
 
 .showcase {
-  margin-top: -175px;
+  margin-top: -250px;
   padding: 45px 0;
+
 }
+
 
 .showcase__img img {
   margin: 0 auto;
@@ -78,7 +100,7 @@ body {
 
 .showcase__button a {
   text-decoration: none;
-  color: #ff0042;
+  color: #CC0035;
 }
 
 .about {
@@ -87,6 +109,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 300px;
+  border-bottom: 5px solid #CC0035;
+  padding: 50px;
 }
 
 .about__text {
@@ -108,3 +132,30 @@ body {
   margin: 0 auto;
 }
 
+
+
+.clients {
+  padding: 50px 0;
+}
+
+
+
+/* FOOTER ----------- */
+.footer {
+  padding: 50px;
+  background-color: #272727;
+  color: #f4f4f4;
+  text-align: center;
+}
+
+.footer__facebook {
+  font-size: 50px;
+  color: #3b5998;
+  padding: 15px 15px;
+  vertical-align: middle;
+}
+
+.footer__phone {
+  font-size: 24px;
+  vertical-align: middle;
+}
