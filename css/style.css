@@ -67,6 +67,7 @@ body {
 .header__text--large {
   font-family: 'Montserrat', serif;
   font-size: 50px;
+  line-height: 1em;
 }
 
 .showcase {
@@ -146,7 +147,9 @@ body {
   background-color: #272727;
   color: #f4f4f4;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;`
 }
+
 
 .footer__facebook {
   font-size: 50px;
@@ -155,7 +158,28 @@ body {
   vertical-align: middle;
 }
 
+.footer__address {
+  padding: 10px 0;
+  font-size: 1.25em;
+}
+
+.footer__office-hours {
+  padding: 10px 0;
+  font-size: 1.25em;
+}
+
 .footer__phone {
   font-size: 24px;
   vertical-align: middle;
 }
+
+.footer__nav {
+  padding: 15px 0 5px;
+  font-size: 1.25em;
+}
+
+.footer__nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
