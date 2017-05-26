@@ -122,7 +122,11 @@ body {
 
 .about__text {
   color: #f4f4f4;
+<<<<<<< HEAD
   margin-top: 25px;
+=======
+  margin-top: 50px;
+>>>>>>> 7b8d520a12d839af8a0ccf7efb0ccef341e7fa82
   font-size: 1.5em;
   text-shadow: 0 2px 2px #000;
 }
@@ -230,6 +234,10 @@ body {
 
 @media (max-width: 400px) {
   .header {
+<<<<<<< HEAD
 
+=======
+    min-height: none;
+>>>>>>> 7b8d520a12d839af8a0ccf7efb0ccef341e7fa82
   }
 }
