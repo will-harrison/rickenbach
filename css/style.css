@@ -42,14 +42,15 @@ body {
 }
 
 .header {
+  background-color: rgba(0,0,0,.5);
+}
+
+.header-bg  {
   background: url('../images/AstoriaFord-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   min-height: 800px;
-}
-
-.header-bg  {
 
 }
 
@@ -220,6 +221,23 @@ body {
 .header-sub {
   background-color: #888;
 }
+
+
+
+.team {
+  padding: 50px 0;
+}
+
+h1.team__header {
+  font-size: 50px;
+}
+
+.team__image {
+  height: 200px;
+  float: left;
+  padding: 20px;
+}
+
 
 
 
