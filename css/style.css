@@ -5,23 +5,23 @@ body {
 }
 
 .navbar-default {
-  background: rgba(0,0,0,.2);
-  border: none;
+  background: rgba(0,0,0,.0);
+  box-shadow: none;
+  border-bottom: none;
 }
 
-.logo {
-  float: right;
-  margin-top: 10px;
-  margin-right: 250px;
-}
+
 
 .header__nav {
-  color: #fff;
+  color: #f4f4f4;
+}
+
+.navbar .navbar-nav {
+  text-transform: uppercase;
 }
 
 .navbar-default .navbar-nav>li>a {
   color: #f4f4f4;
-  padding: 50px 25px;
   font-size: 1.25em;
 }
 
@@ -37,48 +37,73 @@ body {
   background-color: #888;
 }
 
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
 
 .navbar .navbar-collapse {
-  text-align: center;
 }
 
 .header {
-  background: url('../images/AstoriaFord.jpg');
+  background: url('../images/AstoriaFord-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 1000px;
+  min-height: 800px;
+}
+
+.header-bg  {
+
+}
+
+.logo {
+  float: left;
+  margin-top: 25px;
+}
+
+.logo img {
+  width: 400px;
+  padding: 10px 50px;
+
 }
 
 .header__contact {
   font-family: 'Montserrat', sans-serif;
+  color: #f4f4f4;
+  font-size: 26px;
+  margin: 50px 0 20px;
+  margin-left: -150px;
+  padding: 10px 0px 20px;
+}
+
+
+.header__upper {
+  position: relative;
+  top: 30px;
+}
+
+.header__phone {
+  float: right;
+  margin-top: 25px;
+  margin-right: 45px;
   color: #fff;
   font-size: 26px;
-  float: right;
-  margin: 32px 0 10px;
-  padding: 10px 20px 10px;
+}
+
+.header__phone a {
+  color: #fff;
 }
 
 .header__text {
   color: #fff;
   text-shadow: 0 1px #888;
-  font-size: 36px;
-  margin: 75px 200px;
+  font-size: 30px;
 }
 
 .header__text--large {
   font-family: 'Montserrat', serif;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 1em;
 }
 
 .showcase {
-  padding: 0 0 45px;
 
 }
 
@@ -88,6 +113,7 @@ body {
 }
 
 .showcase__head {
+  padding: -100 0 45px;
   text-align: center;
   font-size: 2.25em;
   font-family: 'PT Serif', serif;
@@ -190,6 +216,15 @@ body {
 }
 
 
+
+.header-sub {
+  background-color: #888;
+}
+
+
+
+
+
 @media (max-width: 1200px) {
   .header {
     min-height: 800px;
@@ -198,6 +233,18 @@ body {
   .header__text {
     font-size: 30px;
     margin: 50px 100px;
+  }
+
+  .header__phone {
+    font-size: 20px;
+  }
+
+  .navbar-default .navbar-nav>li>a {
+    font-size: 1em;
+  }
+
+  .logo img {
+    height: 75px;
   }
 
   .header__text--large {
@@ -209,9 +256,13 @@ body {
   }
 }
 
-@media (max-width: 859px) {
+@media (max-width: 990px) {
   .header {
     min-height: 600px;
+  }
+
+  .logo img {
+    height: 65px;
   }
 
   .header__text {
@@ -229,6 +280,14 @@ body {
 }
 
 @media (max-width: 400px) {
-  .header {
+  .header__phone {
+    position: absolute;
+    right: 400px;
+    top: 25px;
+    color: #fff;
+
   }
 }
+
+
+
