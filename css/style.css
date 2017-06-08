@@ -166,11 +166,25 @@ body {
   margin: 0 auto;
 }
 
-
-
 .clients {
   padding: 50px 0;
 }
+
+
+
+
+/* HISTORY PAGE ************************/
+.history {
+  padding: 50px;
+}
+
+p.history__text {
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+
+
 
 
 
