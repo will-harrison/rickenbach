@@ -15,7 +15,7 @@ body {
 }
 
 .navbar .navbar-nav {
-  margin-top: 50px;
+  margin-top: 5px;
   text-transform: uppercase;
 }
 
@@ -42,6 +42,7 @@ body {
 
 .header {
   background-color: rgba(0,0,0,.25);
+  border: 1px solid transparent;
 }
 
 .header-bg  {
@@ -50,7 +51,6 @@ body {
   background-size: cover;
   background-position: center center;
   min-height: 800px;
-
 }
 
 .logo {
@@ -76,8 +76,8 @@ body {
 
 .header__phone {
   /*float: right;*/
-  margin-top: 120px;
-  margin-left: 650px;
+  margin-top: 75px;
+  margin-left: 685px;
   color: #fff;
   font-size: 26px;
 }
@@ -114,7 +114,7 @@ body {
   padding: -100 0 45px;
   text-align: center;
   font-size: 2.25em;
-  font-family: 'Montserrat', serif;
+  /*font-family: 'Montserrat', serif;*/
 }
 
 .showcase__body {
@@ -170,22 +170,6 @@ body {
 
 
 
-
-/* HISTORY PAGE ************************/
-.history {
-  padding: 50px;
-}
-
-p.history__text {
-  font-size: 18px;
-  line-height: 1.2em;
-}
-
-
-
-
-
-
 /* FOOTER ----------- */
 .footer {
   padding: 50px;
@@ -228,7 +212,9 @@ p.history__text {
   text-decoration: none;
 }
 
-
+.footer__facebook-text {
+  color: #fff;
+}
 
 .header-sub {
   background-color: #888;
@@ -263,16 +249,62 @@ h1.team__header {
 
 
 
+
 /* SUBPAGE ***********************/
 .subpage {
   font-size: 1.5em;
   padding: 50px 0;
 }
 
+.subpage__header {
+  background-color: #336699;
+}
+
+/* TESTIMONIALS ******************/
+.testimonials {
+  padding: 50px 0;
+}
+
+h2.testimonials__sub {
+  margin-bottom: 50px;
+}
+
+.testimonial__text {
+  padding: 100px 0 0;
+}
+
+.testimonial__source {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .85em;
+  font-weight: 600;
+}
+
+
+
+/* HISTORY PAGE ************************/
+.history {
+  padding: 50px;
+}
+
+p.history__text {
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+
+
 
 
 @media (max-width: 1300px) {
   .header {
+    min-height: 800px;
+  }
+
+  .header-bg  {
+    background: url('../images/AstoriaFord-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     min-height: 800px;
   }
 
@@ -283,6 +315,7 @@ h1.team__header {
 
   .header__phone {
     font-size: 20px;
+    margin-left: 750px;
   }
 
   .navbar-default .navbar-nav>li>a {
@@ -305,6 +338,23 @@ h1.team__header {
   }
 }
 
+
+@media (max-width:  1200px) {
+  .header__phone {
+    margin-left: 550px;
+  }
+
+  .hero__text {
+    font-size: 22px;
+  }
+
+  .hero__text--large {
+    font-size: 26px;
+  }
+
+}
+
+
 @media (max-width: 990px) {
   .header {
     min-height: 600px;
@@ -320,7 +370,7 @@ h1.team__header {
   }
 
   .header__phone {
-    margin-left: 300px;
+    margin-left: 335px;
     margin-top: 100px;
   }
 
@@ -355,8 +405,12 @@ h1.team__header {
 
   }*/
 
+  .logo {
+    margin-top: 30px;
+  }
+
   .logo img {
-    width: 3r00px;
+    width: 250px;
   }
 
   .navbar-toggle  {
