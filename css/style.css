@@ -41,7 +41,7 @@ body {
 }
 
 .header {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.25);
 }
 
 .header-bg  {
@@ -92,7 +92,7 @@ body {
   font-size: 30px;
   position: absolute;
   margin-top: -575px;
-  margin-left: 150px;
+  margin-left: 180px;
 }
 
 .hero__text--large {
@@ -102,7 +102,7 @@ body {
 }
 
 .showcase {
-  padding: 50px 0;
+  padding: 0 0 50px;
 }
 
 
@@ -114,7 +114,7 @@ body {
   padding: -100 0 45px;
   text-align: center;
   font-size: 2.25em;
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', serif;
 }
 
 .showcase__body {
@@ -127,6 +127,7 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 1.25em;
+  padding: 5px;
 }
 
 .showcase__button a {
@@ -244,14 +245,19 @@ h1.team__header {
 }
 
 .team__image {
-  height: 250px;
-  float: right;
+  height: 500px;
+  /*float: right;*/
   margin-right: 525px;
   padding: 20px;
 }
 
+.team__image--wide {
+  width: 500px;
+}
+
 .team__desc {
   width: 100%;
+  margin-top: 50px;
 }
 
 
@@ -260,6 +266,7 @@ h1.team__header {
 /* SUBPAGE ***********************/
 .subpage {
   font-size: 1.5em;
+  padding: 50px 0;
 }
 
 
@@ -269,9 +276,9 @@ h1.team__header {
     min-height: 800px;
   }
 
-  .header__text {
+  .hero__text {
     font-size: 30px;
-    margin: 50px 100px;
+    margin: -575px 85px;
   }
 
   .header__phone {
@@ -339,7 +346,7 @@ h1.team__header {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 /*  .header__phone {
     position: absolute;
     right: 400px;
@@ -348,11 +355,13 @@ h1.team__header {
 
   }*/
 
+  .logo img {
+    width: 3r00px;
+  }
 
-
-.navbar-toggle  {
-  margin-top: 50px;
-}
+  .navbar-toggle  {
+    margin-top: 50px;
+  }
 
 }
 
