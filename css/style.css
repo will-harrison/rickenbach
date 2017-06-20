@@ -339,10 +339,7 @@ p.history__text {
 }
 
 
-@media (max-width:  1200px) {
-  .header__phone {
-    margin-left: 550px;
-  }
+@media ( max-width:  1299px) {
 
   .hero__text {
     font-size: 22px;
@@ -352,6 +349,17 @@ p.history__text {
     font-size: 26px;
   }
 
+  .logo img {
+    width: 400px;
+  }
+
+}
+
+
+@media (min-width: 1200px and max-width: 1299px) {
+  .header__phone {
+    margin-left: 750px;
+  }
 }
 
 
