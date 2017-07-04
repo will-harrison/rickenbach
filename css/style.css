@@ -46,17 +46,18 @@ body {
 }
 
 .header-bg  {
-  background: url('../images/AstoriaFord-bg.jpg');
+  background: url('../images/AstoriaFord-sidebar.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
   min-height: 800px;
 }
 
 .logo {
   float: left;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin-top: -650px;
+  /*margin-left: 20%;*/
+  margin-left: 350px;
 }
 
 .logo img {
@@ -76,8 +77,9 @@ body {
 
 .header__phone {
   /*float: right;*/
-  margin-top: 75px;
-  margin-left: 685px;
+  margin-top: -475px;
+  /*margin-left: 24%;*/
+  margin-left: 400px;
   color: #fff;
   font-size: 26px;
 }
@@ -93,12 +95,31 @@ body {
   position: absolute;
   margin-top: -575px;
   margin-left: 180px;
+  color: #036635;
 }
 
 .hero__text--large {
   font-family: 'Montserrat', serif;
   font-size: 40px;
   line-height: 1em;
+}
+
+
+.menu {
+  color: #036635;
+  font-size: 18px;
+  line-height: 2em;
+  margin-left: 2%;
+  margin-top: 50px;
+}
+
+.tagline {
+  color: #036635;
+  font-size: 30px;
+  line-height: 1.5em;
+  margin-top: 250px;
+  margin-left: 2%;
+
 }
 
 .showcase {
@@ -294,7 +315,7 @@ p.history__text {
 
 
 
-
+/*
 @media (max-width: 1300px) {
   .header {
     min-height: 800px;
@@ -336,7 +357,7 @@ p.history__text {
   .showcase__head h2 {
     font-size: .75em;
   }
-}
+}*/
 
 
 @media ( max-width:  1299px) {
