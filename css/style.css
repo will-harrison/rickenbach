@@ -46,7 +46,7 @@ body {
 }
 
 .header-bg  {
-  background: url('../images/AstoriaFordSidebarTemp.jpg');
+  background: url('../images/homePage.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
@@ -107,10 +107,11 @@ body {
 
 .menu {
   color: #036635;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: bold;
   line-height: 2em;
-  margin-left: 2%;
-  margin-top: 50px;
+  margin-left: 6%;
+  margin-top: 200px;
 }
 
 .tagline {
@@ -284,6 +285,10 @@ h1.team__header {
 
 .subpage__header {
   background-color: #336699;
+}
+
+.project-name {
+  font-size: 22px;
 }
 
 /* TESTIMONIALS ******************/
