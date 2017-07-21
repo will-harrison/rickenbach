@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Nixie+One:400,600|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans');
 
 body {
   font-family: 'Nixie One', sans-serif;
@@ -50,7 +50,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left center;
-  min-height: 800px;
+  min-height: 600px;
 }
 
 .logo {
@@ -110,8 +110,8 @@ body {
   font-size: 22px;
   font-weight: bold;
   line-height: 2em;
-  margin-left: 6%;
-  margin-top: 200px;
+  margin-left: 55px;
+  margin-top: 125px;
 }
 
 .tagline {
@@ -131,9 +131,6 @@ body {
 .showcase__img img {
   margin: 15px auto;
 }
-
-
-
 
 .showcase__head h2 {
   padding: -100 0 45px;
@@ -289,6 +286,16 @@ h1.team__header {
 
 .project-name {
   font-size: 22px;
+  padding: 15px;
+}
+
+.project-image {
+
+}
+
+/* Project images should be cropped 1.33:1 crop ratio*/
+.project-image img {
+  width: 500px;
 }
 
 /* TESTIMONIALS ******************/
