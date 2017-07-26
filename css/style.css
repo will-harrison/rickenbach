@@ -41,86 +41,63 @@ body {
 }
 
 .header {
-  background-color: rgba(0,0,0,.25);
-  border: 1px solid transparent;
+  min-height: 800px;
+  flex-direction: column;
+  background-color: #c9ac8a;
 }
 
-.header-bg  {
-  background: url('../images/homePage.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left center;
+.header__sidebar {
+}
+
+.header__image {
+  overflow: hidden;
+}
+
+.header__image img {
   height: 800px;
 }
 
-.logo {
-  float: left;
-  margin-top: -650px;
-  /*margin-left: 20%;*/
-  margin-left: 350px;
+.header-bg  {
+  background: url('../images/homePage2.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  height: 800px;
 }
 
 .logo img {
-  /*width: 400px;*/
+  width: 200px;
   padding: 10px 50px;
 }
-
-.header__contact {
-  font-family: 'Montserrat', sans-serif;
-  color: #f4f4f4;
-  font-size: 26px;
-  margin: 50px 0 20px;
-  margin-right: 150px;
-  padding: 10px 0px 20px;
-}
-
-
-.header__phone {
-  /*float: right;*/
-  margin-top: -475px;
-  /*margin-left: 24%;*/
-  margin-left: 400px;
-  color: #fff;
-  font-size: 26px;
-}
-
-.header__phone a {
-  color: #fff;
-}
-
-.hero__text {
-  color: #fff;
-  text-shadow: 0 1px #888;
-  font-size: 30px;
-  position: absolute;
-  margin-top: -575px;
-  margin-left: 180px;
-  color: #036635;
-}
-
-.hero__text--large {
-  font-family: 'Montserrat', serif;
-  font-size: 40px;
-  line-height: 1em;
-}
-
 
 .menu {
   color: #036635;
   font-size: 20px;
   font-weight: bold;
   line-height: 2em;
-  margin-left: 55px;
-  margin-top: 125px;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+.header__logo {
+  margin-top: 25px;
+  margin-left: 5px;
 }
 
 .tagline {
   color: #036635;
-  font-size: 30px;
+  font-size: 32px;
+  font-weight: bold;
   line-height: 1.5em;
-  margin-top: 250px;
-  margin-left: 2%;
+  margin-top: 50px;
+  margin-left: 25px;
+}
 
+.contact {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 25px;
 }
 
 .showcase {
@@ -203,6 +180,10 @@ body {
   font-weight: 600;
 }
 
+.footer__logo img {
+  width: 400px;
+  padding: 15px 0;
+}
 
 .footer__facebook {
   font-size: 50px;
